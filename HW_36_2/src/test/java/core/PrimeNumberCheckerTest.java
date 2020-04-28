@@ -8,8 +8,8 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class PrimeNumberCheckerTest {
 	
- // String csvFile = "./primes_10.csv";        // mvn site -Dtestcases="./primes_10.csv"
-String csvFile = System.getProperty("testcases"); 
+//  String csvFile = "./primes_10.csv";        // mvn site -Dtestcases="./primes_10.csv"
+	String csvFile = System.getProperty("testcases"); 
 	
 	@DataProvider(name = "Prime Numbers")
 	public Iterator<String[]> data() throws IOException {
